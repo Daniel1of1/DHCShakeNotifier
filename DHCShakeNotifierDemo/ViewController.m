@@ -33,7 +33,7 @@
     [super viewDidLoad];
     
     //register for the notification
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotShake) name:@"CONJUShakeNotification" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotShake) name:DHCSHakeNotifName object:nil];
 
     //initial text
     [self resetLabel];
