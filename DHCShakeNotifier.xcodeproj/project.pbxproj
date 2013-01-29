@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18248ADE16B814EC0096D978 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18248ADD16B814EC0096D978 /* UIKit.framework */; };
+		18248AE016B814EC0096D978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18248ADF16B814EC0096D978 /* Foundation.framework */; };
+		18248AE216B814EC0096D978 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18248AE116B814EC0096D978 /* CoreGraphics.framework */; };
+		18248B0216B814F00096D978 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18248B0116B814F00096D978 /* SenTestingKit.framework */; };
+		18248B0316B814F00096D978 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18248ADD16B814EC0096D978 /* UIKit.framework */; };
+		18248B0416B814F00096D978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18248ADF16B814EC0096D978 /* Foundation.framework */; };
+		18248B0C16B814F10096D978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18248B0A16B814F10096D978 /* InfoPlist.strings */; };
+		18248B0F16B814F20096D978 /* DHCShakeNotifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248B0E16B814F20096D978 /* DHCShakeNotifierTests.m */; };
+		18248B2716B815840096D978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248B1A16B815840096D978 /* AppDelegate.m */; };
+		18248B2816B815840096D978 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18248B1B16B815840096D978 /* Default-568h@2x.png */; };
+		18248B2916B815840096D978 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18248B1C16B815840096D978 /* Default.png */; };
+		18248B2A16B815840096D978 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18248B1D16B815840096D978 /* Default@2x.png */; };
+		18248B2B16B815840096D978 /* DHCShakeNotifier-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18248B1E16B815840096D978 /* DHCShakeNotifier-Info.plist */; };
+		18248B2C16B815840096D978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18248B2016B815840096D978 /* InfoPlist.strings */; };
+		18248B2E16B815840096D978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248B2416B815840096D978 /* main.m */; };
+		18248B3216B816F80096D978 /* UIWindow+DHCShakeRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248B3116B816F80096D978 /* UIWindow+DHCShakeRecognizer.m */; };
+		18248B3516B817270096D978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248B3416B817270096D978 /* ViewController.m */; };
+		18248B3716B817440096D978 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18248B3616B817440096D978 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18248B0516B814F00096D978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18248AD016B814EB0096D978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18248AD816B814EC0096D978;
+			remoteInfo = DHCShakeNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18248AD916B814EC0096D978 /* DHCShakeNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHCShakeNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18248ADD16B814EC0096D978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18248ADF16B814EC0096D978 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18248AE116B814EC0096D978 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18248B0016B814F00096D978 /* DHCShakeNotifierTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHCShakeNotifierTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18248B0116B814F00096D978 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		18248B0916B814F10096D978 /* DHCShakeNotifierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DHCShakeNotifierTests-Info.plist"; sourceTree = "<group>"; };
+		18248B0B16B814F10096D978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18248B0D16B814F20096D978 /* DHCShakeNotifierTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHCShakeNotifierTests.h; sourceTree = "<group>"; };
+		18248B0E16B814F20096D978 /* DHCShakeNotifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHCShakeNotifierTests.m; sourceTree = "<group>"; };
+		18248B1916B815840096D978 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18248B1A16B815840096D978 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18248B1B16B815840096D978 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "DHCShakeNotifierDemo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		18248B1C16B815840096D978 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = DHCShakeNotifierDemo/Default.png; sourceTree = SOURCE_ROOT; };
+		18248B1D16B815840096D978 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "DHCShakeNotifierDemo/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		18248B1E16B815840096D978 /* DHCShakeNotifier-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DHCShakeNotifier-Info.plist"; path = "DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist"; sourceTree = SOURCE_ROOT; };
+		18248B1F16B815840096D978 /* DHCShakeNotifier-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DHCShakeNotifier-Prefix.pch"; path = "DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		18248B2116B815840096D978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18248B2416B815840096D978 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DHCShakeNotifierDemo/main.m; sourceTree = SOURCE_ROOT; };
+		18248B3016B816F80096D978 /* UIWindow+DHCShakeRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+DHCShakeRecognizer.h"; sourceTree = "<group>"; };
+		18248B3116B816F80096D978 /* UIWindow+DHCShakeRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+DHCShakeRecognizer.m"; sourceTree = "<group>"; };
+		18248B3316B817270096D978 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18248B3416B817270096D978 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18248B3616B817440096D978 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18248AD616B814EC0096D978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18248ADE16B814EC0096D978 /* UIKit.framework in Frameworks */,
+				18248AE016B814EC0096D978 /* Foundation.framework in Frameworks */,
+				18248AE216B814EC0096D978 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18248AFC16B814F00096D978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18248B0216B814F00096D978 /* SenTestingKit.framework in Frameworks */,
+				18248B0316B814F00096D978 /* UIKit.framework in Frameworks */,
+				18248B0416B814F00096D978 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18248ACE16B814EB0096D978 = {
+			isa = PBXGroup;
+			children = (
+				18248B1816B815840096D978 /* DHCShakeNotifierDemo */,
+				18248AE316B814EC0096D978 /* DHCShakeNotifier */,
+				18248B0716B814F00096D978 /* DHCShakeNotifierTests */,
+				18248ADC16B814EC0096D978 /* Frameworks */,
+				18248ADA16B814EC0096D978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18248ADA16B814EC0096D978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18248AD916B814EC0096D978 /* DHCShakeNotifier.app */,
+				18248B0016B814F00096D978 /* DHCShakeNotifierTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18248ADC16B814EC0096D978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18248ADD16B814EC0096D978 /* UIKit.framework */,
+				18248ADF16B814EC0096D978 /* Foundation.framework */,
+				18248AE116B814EC0096D978 /* CoreGraphics.framework */,
+				18248B0116B814F00096D978 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18248AE316B814EC0096D978 /* DHCShakeNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				18248B3016B816F80096D978 /* UIWindow+DHCShakeRecognizer.h */,
+				18248B3116B816F80096D978 /* UIWindow+DHCShakeRecognizer.m */,
+			);
+			path = DHCShakeNotifier;
+			sourceTree = "<group>";
+		};
+		18248AE416B814ED0096D978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18248B1E16B815840096D978 /* DHCShakeNotifier-Info.plist */,
+				18248B2016B815840096D978 /* InfoPlist.strings */,
+				18248B2416B815840096D978 /* main.m */,
+				18248B1F16B815840096D978 /* DHCShakeNotifier-Prefix.pch */,
+				18248B1B16B815840096D978 /* Default-568h@2x.png */,
+				18248B1C16B815840096D978 /* Default.png */,
+				18248B1D16B815840096D978 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			path = ../DHCShakeNotifier;
+			sourceTree = "<group>";
+		};
+		18248B0716B814F00096D978 /* DHCShakeNotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				18248B0D16B814F20096D978 /* DHCShakeNotifierTests.h */,
+				18248B0E16B814F20096D978 /* DHCShakeNotifierTests.m */,
+				18248B0816B814F10096D978 /* Supporting Files */,
+			);
+			path = DHCShakeNotifierTests;
+			sourceTree = "<group>";
+		};
+		18248B0816B814F10096D978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18248B0916B814F10096D978 /* DHCShakeNotifierTests-Info.plist */,
+				18248B0A16B814F10096D978 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18248B1816B815840096D978 /* DHCShakeNotifierDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18248B1916B815840096D978 /* AppDelegate.h */,
+				18248B1A16B815840096D978 /* AppDelegate.m */,
+				18248B3316B817270096D978 /* ViewController.h */,
+				18248B3416B817270096D978 /* ViewController.m */,
+				18248B3616B817440096D978 /* ViewController.xib */,
+				18248AE416B814ED0096D978 /* Supporting Files */,
+			);
+			path = DHCShakeNotifierDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18248AD816B814EC0096D978 /* DHCShakeNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18248B1216B814F20096D978 /* Build configuration list for PBXNativeTarget "DHCShakeNotifier" */;
+			buildPhases = (
+				18248AD516B814EC0096D978 /* Sources */,
+				18248AD616B814EC0096D978 /* Frameworks */,
+				18248AD716B814EC0096D978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHCShakeNotifier;
+			productName = DHCShakeNotifier;
+			productReference = 18248AD916B814EC0096D978 /* DHCShakeNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18248AFF16B814F00096D978 /* DHCShakeNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18248B1516B814F20096D978 /* Build configuration list for PBXNativeTarget "DHCShakeNotifierTests" */;
+			buildPhases = (
+				18248AFB16B814F00096D978 /* Sources */,
+				18248AFC16B814F00096D978 /* Frameworks */,
+				18248AFD16B814F00096D978 /* Resources */,
+				18248AFE16B814F00096D978 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18248B0616B814F00096D978 /* PBXTargetDependency */,
+			);
+			name = DHCShakeNotifierTests;
+			productName = DHCShakeNotifierTests;
+			productReference = 18248B0016B814F00096D978 /* DHCShakeNotifierTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18248AD016B814EB0096D978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = confidenceJuice;
+			};
+			buildConfigurationList = 18248AD316B814EB0096D978 /* Build configuration list for PBXProject "DHCShakeNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18248ACE16B814EB0096D978;
+			productRefGroup = 18248ADA16B814EC0096D978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18248AD816B814EC0096D978 /* DHCShakeNotifier */,
+				18248AFF16B814F00096D978 /* DHCShakeNotifierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18248AD716B814EC0096D978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18248B2816B815840096D978 /* Default-568h@2x.png in Resources */,
+				18248B2916B815840096D978 /* Default.png in Resources */,
+				18248B2A16B815840096D978 /* Default@2x.png in Resources */,
+				18248B2B16B815840096D978 /* DHCShakeNotifier-Info.plist in Resources */,
+				18248B2C16B815840096D978 /* InfoPlist.strings in Resources */,
+				18248B3716B817440096D978 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18248AFD16B814F00096D978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18248B0C16B814F10096D978 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18248AFE16B814F00096D978 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18248AD516B814EC0096D978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18248B2716B815840096D978 /* AppDelegate.m in Sources */,
+				18248B2E16B815840096D978 /* main.m in Sources */,
+				18248B3216B816F80096D978 /* UIWindow+DHCShakeRecognizer.m in Sources */,
+				18248B3516B817270096D978 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18248AFB16B814F00096D978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18248B0F16B814F20096D978 /* DHCShakeNotifierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18248B0616B814F00096D978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18248AD816B814EC0096D978 /* DHCShakeNotifier */;
+			targetProxy = 18248B0516B814F00096D978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18248B0A16B814F10096D978 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18248B0B16B814F10096D978 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18248B2016B815840096D978 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18248B2116B815840096D978 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = DHCShakeNotifierDemo;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18248B1016B814F20096D978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18248B1116B814F20096D978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18248B1316B814F20096D978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch";
+				INFOPLIST_FILE = "DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18248B1416B814F20096D978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch";
+				INFOPLIST_FILE = "DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18248B1616B814F20096D978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DHCShakeNotifier.app/DHCShakeNotifier";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCShakeNotifier/DHCShakeNotifier-Prefix.pch";
+				INFOPLIST_FILE = "DHCShakeNotifierTests/DHCShakeNotifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		18248B1716B814F20096D978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DHCShakeNotifier.app/DHCShakeNotifier";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCShakeNotifier/DHCShakeNotifier-Prefix.pch";
+				INFOPLIST_FILE = "DHCShakeNotifierTests/DHCShakeNotifierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18248AD316B814EB0096D978 /* Build configuration list for PBXProject "DHCShakeNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18248B1016B814F20096D978 /* Debug */,
+				18248B1116B814F20096D978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18248B1216B814F20096D978 /* Build configuration list for PBXNativeTarget "DHCShakeNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18248B1316B814F20096D978 /* Debug */,
+				18248B1416B814F20096D978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18248B1516B814F20096D978 /* Build configuration list for PBXNativeTarget "DHCShakeNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18248B1616B814F20096D978 /* Debug */,
+				18248B1716B814F20096D978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18248AD016B814EB0096D978 /* Project object */;
+}

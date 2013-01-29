@@ -1,0 +1,360 @@
+TDHCShakeNotifier
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Info.plist DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist
+cProcessPCH /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch.pth DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/AppDelegate.o /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/main.o /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/UIWindow+DHCShakeRecognizer.o /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/ViewController.o /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier normal i386
+cGenerateDSYMFile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app.dSYM /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier
+cCpResource DHCShakeNotifierDemo/Default-568h@2x.png Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default-568h@2x.png
+cCpResource DHCShakeNotifierDemo/Default.png Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default.png
+cCpResource DHCShakeNotifierDemo/Default@2x.png Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default@2x.png
+cCopyPlistFile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier-Info.plist DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist
+cCompileXIB /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.xib
+cCopyStringsFile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/en.lproj/InfoPlist.strings DHCShakeNotifierDemo/en.lproj/InfoPlist.strings
+cTouch /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050B391A50000000000228FD0
+t1353945509
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050B391A600000000003DCEF0
+t1353945510
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050B391A600000000000015F7
+t1353945510
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050B391AB0000000000000E8D
+t1353945515
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050B391AD0000000000AB3D60
+t1353945517
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c0000000050B391C00000000000001B54
+t1353945536
+s6996
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/DHCShakeNotifier.LinkFileList
+c000000005107E0E000000000000002A0
+t1359470816
+s672
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/UIWindow+DHCShakeRecognizer.o
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch.pth
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app.dSYM
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier-Info.plist
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default.png
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default@2x.png
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Info.plist
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/PkgInfo
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/ViewController.nib
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m
+c000000005107C8E2000000000000022F
+t1359464674
+s559
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/AppDelegate.m
+c000000005107DD6D000000000000090E
+t1359469933
+s2318
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist
+c000000005107DD6C0000000000000493
+t1359469932
+s1171
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch
+c000000005107DD6D000000000000014F
+t1359469933
+s335
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.m
+c000000005107DC7E0000000000000474
+t1359469694
+s1140
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.xib
+c000000005107E02100000000000021FA
+t1359470625
+s8698
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/en.lproj/InfoPlist.strings
+c000000005107DD6D000000000000002D
+t1359469933
+s45
+
+N/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/main.m
+c000000005107DD6D000000000000015F
+t1359469933
+s351
+
+NDHCShakeNotifierDemo/DHCShakeNotifier-Info.plist
+c000000005107DD6C0000000000000493
+t1359469932
+s1171
+
+CBuild AST from /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m
+r0
+
+CBuild AST from /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/AppDelegate.m
+r0
+
+CBuild AST from /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.m
+r0
+
+CBuild AST from /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3483cc6018b8b641^d6fcf46018b8b641^-138"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist'.1(21%IDEActivityLogMessage2@137"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist'.-381163616#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"0C7393C2-829D-4CFF-B843-CA303021FE74-
+
+CCompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/AppDelegate.o /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381163618.757846
+e381163619.433082
+r1
+xCompileC
+xBuild/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/AppDelegate.o
+x/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/AppDelegate.m6538c26218b8b641^55de6e6318b8b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/AppDelegate.m0000000000000000^3979"CompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/AppDelegate.o DHCShakeNotifierDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/confidence/devGits/DHCShakeNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-generated-files.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-own-target-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-all-target-headers.hmap -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-project-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources/i386 -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources -F/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator -include /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch -MMD -MT dependencies -MF /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/AppDelegate.dia -c /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/AppDelegate.m -o /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/AppDelegate.o36"DDD655C1-B30A-484F-B9C0-D633BE1EAC38-
+
+CCompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/UIWindow+DHCShakeRecognizer.o /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381163618.758379
+e381163619.429994
+r1
+xCompileC
+xBuild/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/UIWindow+DHCShakeRecognizer.o
+x/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m9c4ec26218b8b641^33156e6318b8b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m0000000000000000^4067"CompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/UIWindow+DHCShakeRecognizer.o DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/confidence/devGits/DHCShakeNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-generated-files.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-own-target-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-all-target-headers.hmap -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-project-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources/i386 -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources -F/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator -include /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch -MMD -MT dependencies -MF /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/UIWindow+DHCShakeRecognizer.d --serialize-diagnostics /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/UIWindow+DHCShakeRecognizer.dia -c /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifier/UIWindow+DHCShakeRecognizer.m -o /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/UIWindow+DHCShakeRecognizer.o36"DFFCEF7A-8DB0-47B3-BD4B-3628CEB81D96-
+
+CCompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/ViewController.o /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381163618.758396
+e381163619.427639
+r1
+xCompileC
+xBuild/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/ViewController.o
+x/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.m4050c26218b8b641^747b6d6318b8b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.m0000000000000000^3997"CompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/ViewController.o DHCShakeNotifierDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/confidence/devGits/DHCShakeNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-generated-files.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-own-target-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-all-target-headers.hmap -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-project-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources/i386 -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources -F/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator -include /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch -MMD -MT dependencies -MF /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/ViewController.dia -c /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.m -o /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/ViewController.o36"AB5F91D0-FDC9-4BE4-AE44-6427300A3687-
+
+CCompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/main.o /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381163618.758350
+e381163619.408835
+r1
+xCompileC
+xBuild/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/main.o
+x/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/main.m546ec26218b8b641^55bd686318b8b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/main.m0000000000000000^3937"CompileC Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/main.o DHCShakeNotifierDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/confidence/devGits/DHCShakeNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-generated-files.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-own-target-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-all-target-headers.hmap -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-project-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources/i386 -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources -F/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator -include /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch -MMD -MT dependencies -MF /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/main.dia -c /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/main.m -o /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/main.o36"46BEA8DD-97B7-4A89-A99D-0CE8E932B361-
+
+CCompileXIB /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.xib
+s381163621.330957
+e381163629.973008
+r1
+xCompileXIB
+x/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.xib7ee1596518b8b641^c687f96d18b8b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.xib0000000000000000^943"CompileXIB DHCShakeNotifierDemo/ViewController.xib    cd /Users/confidence/devGits/DHCShakeNotifier    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/ViewController.nib /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/ViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"75D6A119-8264-438C-859F-7CDF46892C14-
+
+CCopyPlistFile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier-Info.plist DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist
+s381163621.327318
+e381163621.352079
+r1
+xCopyPlistFile
+x/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier-Info.plist
+xDHCShakeNotifierDemo/DHCShakeNotifier-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy DHCShakeNotifierDemo/DHCShakeNotifier-Info.plistfce1536518b8b641^923c5b6518b8b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist0000000000000000^596"CopyPlistFile Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier-Info.plist DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist    cd /Users/confidence/devGits/DHCShakeNotifier    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app -- DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist36"8CB1CB54-9115-431C-AA0B-D0FFD5BADC50-
+
+CCopyStringsFile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/en.lproj/InfoPlist.strings DHCShakeNotifierDemo/en.lproj/InfoPlist.strings
+s381163621.330975
+e381163621.424678
+r1
+xCopyStringsFile
+x/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/en.lproj/InfoPlist.strings
+xDHCShakeNotifierDemo/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy DHCShakeNotifierDemo/en.lproj/InfoPlist.strings84d5546518b8b641^05c46c6518b8b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/en.lproj/InfoPlist.strings0000000000000000^645"CopyStringsFile Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/en.lproj/InfoPlist.strings DHCShakeNotifierDemo/en.lproj/InfoPlist.strings    cd /Users/confidence/devGits/DHCShakeNotifier    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/en.lproj -- DHCShakeNotifierDemo/en.lproj/InfoPlist.strings36"B056CF8E-50B9-4E1B-8852-AF425DC3ED72-
+
+CCpResource DHCShakeNotifierDemo/Default-568h@2x.png Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default-568h@2x.png
+s381163621.326870
+e381163621.351717
+r1
+xCpResource
+xDHCShakeNotifierDemo/Default-568h@2x.png
+xBuild/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default-568h@2x.png2ec7536518b8b641^11375b6518b8b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default-568h@2x.png000000000080d041^678"CpResource "DHCShakeNotifierDemo/Default-568h@2x.png" "Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default-568h@2x.png"    cd /Users/confidence/devGits/DHCShakeNotifier    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/Default-568h@2x.png" /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app36"CDF1E774-F56C-465E-B54F-0AF6F2043A9A-
+
+CCpResource DHCShakeNotifierDemo/Default.png Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default.png
+s381163621.326878
+e381163621.329788
+r1
+xCpResource
+xDHCShakeNotifierDemo/Default.png
+xBuild/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default.pngb5c3536518b8b641^a06e546518b8b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default.png000000000080d041^648"CpResource DHCShakeNotifierDemo/Default.png Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default.png    cd /Users/confidence/devGits/DHCShakeNotifier    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/Default.png /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app36"70577D20-FDAB-4E9C-BB95-5CF7EBCEBF64-
+
+CCpResource DHCShakeNotifierDemo/Default@2x.png Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default@2x.png
+s381163621.326884
+e381163621.330355
+r1
+xCpResource
+xDHCShakeNotifierDemo/Default@2x.png
+xBuild/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default@2x.png2ec7536518b8b641^de92546518b8b641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default@2x.png000000000080d041^663"CpResource "DHCShakeNotifierDemo/Default@2x.png" "Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Default@2x.png"    cd /Users/confidence/devGits/DHCShakeNotifier    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/Default@2x.png" /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app36"AD17E3F7-FBB2-4723-967E-9D4EA61AD3E0-
+
+CGenerateDSYMFile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app.dSYM /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier
+s381163621.061820
+e381163621.317731
+r1
+xGenerateDSYMFile
+x/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app.dSYM
+x/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generating /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app.dSYMdee80f6518b8b641^7957516518b8b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app.dSYM000000000080d041^727"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app.dSYM Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier    cd /Users/confidence/devGits/DHCShakeNotifier    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier -o /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app.dSYM36"933C788A-CE36-4B1F-B834-ACAE24CBB2B9-
+
+CLd /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier normal i386
+s381163619.440865
+e381163621.054193
+r1
+xLd
+x/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier1ff4706318b8b641^32e30d6518b8b641^---0#0#0#--1280"Ld Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier normal i386    cd /Users/confidence/devGits/DHCShakeNotifier    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator -F/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator -filelist /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/Objects-normal/i386/DHCShakeNotifier.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/DHCShakeNotifier36"D79B1138-3C6B-4685-B66C-BA153F334A4A-
+
+CProcessInfoPlistFile /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Info.plist DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist
+s381163616.996562
+e381163617.001887
+r1
+xProcessInfoPlistFile
+x/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Info.plist
+xDHCShakeNotifierDemo/DHCShakeNotifier-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process DHCShakeNotifierDemo/DHCShakeNotifier-Info.plistcd3aff6018b8b641^137f006118b8b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist0000000000000000^760"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Info.plist DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist    cd /Users/confidence/devGits/DHCShakeNotifier    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DHCShakeNotifierDemo/DHCShakeNotifier-Info.plist -genpkginfo /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app/Info.plist36"D7E10FBB-5233-4774-BBB9-76F664F3E893-
+
+CProcessPCH /Users/confidence/Library/Developer/Xcode/DerivedData/DHCShakeNotifier-ewkwdfgijfowjjemcvkjpoowqges/Index/PrecompiledHeaders/DHCShakeNotifier-Prefix-gtscxvmqslwoincvuhlfcjzugbmc_ast/DHCShakeNotifier-Prefix.pch.pth DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch.pth DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381163617.028888
+e381163618.750791
+r1
+xProcessPCH
+x/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch.pth
+xDHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch8717086118b8b641^a433c06218b8b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch0000000000000000^3848"ProcessPCH Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch.pth DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/confidence/devGits/DHCShakeNotifier    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-generated-files.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-own-target-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-all-target-headers.hmap -iquote /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DHCShakeNotifier-project-headers.hmap -I/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources/i386 -I/Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/DHCShakeNotifier.build/Debug-iphonesimulator/DHCShakeNotifier.build/DerivedSources -F/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch.dia -c /Users/confidence/devGits/DHCShakeNotifier/DHCShakeNotifierDemo/DHCShakeNotifier-Prefix.pch -o /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch.pth -MMD -MT dependencies -MF /Users/confidence/devGits/DHCShakeNotifier/Build/Intermediates/PrecompiledHeaders/DHCShakeNotifier-Prefix-hiziayzgenxlktejjhrocbozgxpr/DHCShakeNotifier-Prefix.pch.d36"655E1695-51C8-43CC-8848-99867C0EFE7A-
+
+CTouch /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app
+s381163629.981078
+e381163630.051865
+r1
+xTouch
+x/Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Touch /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app7d3dfb6d18b8b641^77480d6e18b8b641^---0#0#0#--432"Touch Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app    cd /Users/confidence/devGits/DHCShakeNotifier    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/confidence/devGits/DHCShakeNotifier/Build/Products/Debug-iphonesimulator/DHCShakeNotifier.app36"349419E3-4578-4CDD-83A0-49E4A8CC73CC-
+
