@@ -16,6 +16,9 @@ pod "DHCShakeNotifier"
 add contents of `DHCShakeNotifier` to your project
 
 ##Usage  
+
+Clone/ download the repo and take a quick look at the demo.
+
 1. import DHCShakeNotifier:
 
     ```
