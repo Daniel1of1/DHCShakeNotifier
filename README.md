@@ -9,7 +9,7 @@ A tiny category, with a single method to send out a NSNotifiatication if a shake
 add the following to your Podfile
 
 ```
-pod "DHCShakeNotifier", :git => 'https://github.com/confidenceJuice/DHCShakeNotifier.git', :tag => '0.1.0'
+pod "DHCShakeNotifier"
 ```
 
 ###Manual
@@ -17,36 +17,38 @@ add contents of `DHCShakeNotifier` to your project
 
 ##Usage  
 1. import DHCShakeNotifier:
-'''
-#import "UIWindow+DHCShakeRecognizer.h"
-```
+
+    ```
+    #import "UIWindow+DHCShakeRecognizer.h"
+    ```
+
 2. listen for shake notification by adding an NSNotification observer :
 
-```
-@implementation YourObject
+    ```
+    @implementation YourObject
 
-...
+    ...
 
--(id)init{
-    if (self==[super init]) {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(methodThatIsCalledAfterShake) name:@"CONJUShakeNotification" object:nil];
+    -(id)init{
+        if (self==[super init]) {
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(methodThatIsCalledAfterShake) name:@"CONJUShakeNotification" object:nil];
+        }
+       return self;
     }
-    return self;
-}
 
-...
+    ...
 
--(void)methodThatIsCalledAfterShake{
-  NSLog(@"\"I have just been shaken\" - A martini after being ordered by James Bond");
-}
+    -(void)methodThatIsCalledAfterShake{
+     NSLog(@"\"I have just been shaken\" - A martini after being ordered by James Bond");
+    }
 
-...
+    ...
 
--(void)dealloc{
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:DHCSHakeNotifName object:nil];
-}
+    -(void)dealloc{
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:DHCSHakeNotifName object:nil];
+    }
 
-...
+    ...
 
-@end
-```
+    @end
+    ```
