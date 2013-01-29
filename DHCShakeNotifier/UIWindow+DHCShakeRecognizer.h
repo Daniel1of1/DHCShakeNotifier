@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define DHCSHakeNotifName @"DHCSHakeNotificationName"
+
 @interface UIWindow (DHCShakeRecognizer)
 
 @end
