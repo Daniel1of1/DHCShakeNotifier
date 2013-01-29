@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|
   s.name         = "DHCShakeNotifier"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.summary      = "A very simple category that sends out an NSNotification whenever the de$
   s.homepage     = "https://github.com/confidenceJuice/DHCShakeNotifier"
   s.license      = 'MIT'
   s.author       = { "Daniel Haight" => "confidence.designed@gmail.com" }
-  s.source       = { :git => "https://github.com/confidenceJuice/DHCShakeNotifier.git", :ta$
+  s.source       = { :git => "https://github.com/confidenceJuice/DHCShakeNotifier.git", :tag "0.1.2" }$
   s.platform     = :ios
   s.source_files = 'DHCShakeNotifier'
   s.frameworks = 'Foundation', 'UIKit'
