@@ -8,9 +8,9 @@ A tiny category, with a single method to send out a NSNotifiatication if a shake
 ###Cocoapods (preferred)  
 add the following to your Podfile
 
-'''
+```
 pod "DHCShakeNotifier", :git => 'https://github.com/confidenceJuice/DHCShakeNotifier.git', :tag => '0.1.0'
-'''
+```
 
 ###Manual
 add contents of `DHCShakeNotifier` to your project
@@ -24,22 +24,29 @@ add contents of `DHCShakeNotifier` to your project
 
 ```
 @implementation YourObject
+
 ...
+
 -(id)init{
     if (self==[super init]) {
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(methodThatIsCalledAfterShake) name:@"CONJUShakeNotification" object:nil];
     }
     return self;
 }
+
 ...
+
 -(void)methodThatIsCalledAfterShake{
   NSLog(@"\"I have just been shaken\" - A martini after being ordered by James Bond");
 }
+
 ...
 
 -(void)dealloc{
     [[NSNotificationCenter defaultCenter] removeObserver:self name:DHCSHakeNotifName object:nil];
 }
+
 ...
+
 @end
 ```
