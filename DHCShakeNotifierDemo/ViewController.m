@@ -33,7 +33,7 @@
     [super viewDidLoad];
     
     //register for the notification
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotShake) name:DHCSHakeNotifName object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotShake) name:DHCSHakeNotificationName object:nil];
 
     //initial text
     [self resetLabel];
@@ -50,7 +50,7 @@
 }
 
 -(void)dealloc{
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:DHCSHakeNotifName object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:DHCSHakeNotificationName object:nil];
 }
 
 @end
