@@ -15,4 +15,7 @@
         [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"CONJUShakeNotification" object:nil]];
     }
 }
+
 @end
+
+NSString * const DHCSHakeNotificationName = @"CONJUShakeNotification";
