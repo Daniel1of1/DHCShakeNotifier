@@ -27,7 +27,7 @@ Clone/ download the repo and take a quick look at the demo.
 
 2. listen for shake notification by adding an NSNotification observer :
 
-    ```
+    ```Objective-C
     @implementation YourObject
 
     ...
