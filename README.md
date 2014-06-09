@@ -34,7 +34,7 @@ Clone/ download the repo and take a quick look at the demo.
 
     -(id)init{
         if (self==[super init]) {
-            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(methodThatIsCalledAfterShake) name:@"CONJUShakeNotification" object:nil];
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(methodThatIsCalledAfterShake) name:DHCSHakeNotificationName object:nil];
         }
        return self;
     }
@@ -48,7 +48,7 @@ Clone/ download the repo and take a quick look at the demo.
     ...
 
     -(void)dealloc{
-        [[NSNotificationCenter defaultCenter] removeObserver:self name:DHCSHakeNotifName object:nil];
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:DHCSHakeNotificationName object:nil];
     }
 
     ...
