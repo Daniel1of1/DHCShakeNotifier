@@ -19,7 +19,6 @@
 		18248B2816B815840096D978 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18248B1B16B815840096D978 /* Default-568h@2x.png */; };
 		18248B2916B815840096D978 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18248B1C16B815840096D978 /* Default.png */; };
 		18248B2A16B815840096D978 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18248B1D16B815840096D978 /* Default@2x.png */; };
-		18248B2B16B815840096D978 /* DHCShakeNotifier-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18248B1E16B815840096D978 /* DHCShakeNotifier-Info.plist */; };
 		18248B2C16B815840096D978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18248B2016B815840096D978 /* InfoPlist.strings */; };
 		18248B2E16B815840096D978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248B2416B815840096D978 /* main.m */; };
 		18248B3216B816F80096D978 /* UIWindow+DHCShakeRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248B3116B816F80096D978 /* UIWindow+DHCShakeRecognizer.m */; };
@@ -220,7 +219,7 @@
 		18248AD016B814EB0096D978 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = confidenceJuice;
 			};
 			buildConfigurationList = 18248AD316B814EB0096D978 /* Build configuration list for PBXProject "DHCShakeNotifier" */;
@@ -249,7 +248,6 @@
 				18248B2816B815840096D978 /* Default-568h@2x.png in Resources */,
 				18248B2916B815840096D978 /* Default.png in Resources */,
 				18248B2A16B815840096D978 /* Default@2x.png in Resources */,
-				18248B2B16B815840096D978 /* DHCShakeNotifier-Info.plist in Resources */,
 				18248B2C16B815840096D978 /* InfoPlist.strings in Resources */,
 				18248B3716B817440096D978 /* ViewController.xib in Resources */,
 			);
@@ -457,6 +455,7 @@
 				18248B1416B814F20096D978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18248B1516B814F20096D978 /* Build configuration list for PBXNativeTarget "DHCShakeNotifierTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +464,7 @@
 				18248B1716B814F20096D978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
