@@ -1,0 +1,239 @@
+FORMAT: 1A
+HOST: http://www.publicapi.giffgaff.com
+
+# giffgaff Public API Documentation
+Publicly accessible endpoints to interact with your giffgaff account. From the mobile network run by you.
+
+# General Consideration
+The API will provide an HTTP interface which will follow the REST conventions.
+The API will always accept and return ONLY JSON data formats.
+
+## Data format
+
+- **Dates** will be encoded as strings with **ISO-8601** format. e.g. `2012-10-19T17:05:34.022+0000`.
+- **Phone numbers** will be strings with international format. e.g. +447000000001.
+- **Balance** and **Money related values** will be **integers** expressed as *cents/pennies*. e.g `£10.72` will be expressed as `1072`.
+Status codes
+
+## Typical Status codes
+
+Every response will provide an HTTP Header containing the response status code. As a rule of thumb, the following codes will always apply:
+
+| HTTP Status Code          | Description           |
+| ---------                 | ----------------      |
+| 200 (Response OK)         | Valid Response        |
+| 400 (Bad Request)         | The request could not be understood or was missing required parameters
+| 401 (Forbidden)           | Authentication failed or user does not have permissions for the requested operation
+| 500 (Server error)        | We messed up
+|||
+
+
+# Group API Status
+
+All the things we should say about status and also forget the weird 2nd 'hearbeat', not sure how to get rid of it :/
+
+## /giffgaff-api/heartbeat
+
+### GET
+
+Checks if the API and its internal components are up and running
+ 
++ Response 200 (application/json)
+
+        { "alive" : true }
+
+
+# Group Authentication
+
+##Overview
+
+say all the things that we should say re authentication ya? like:
+
+###Oauth overview
+
+#### Access Token
+blah blah how to use it.
+
+#### Refresh Token
+blah blah how to use it.
+
+## Authorisation [/giffgaff-api/oauth/token{?client_id,client_secret,grant_type,scope,refresh_token,username,password}]
+
+### requestAccessToken [POST]
+
++ Parameters
+    + client_id
+    + client_secret
+    + grant_type
+    + scope( optional )
+    + username
+    + password
+    
++ Response 200 (application/json)
+
+        { "access_token"  : "77effd7f-f73c-4bb5-a4bf-f3fc8cb5c80d", "token_type" : "bearer", "refresh_token" : "66d31440-089e-49c9-a699-227c79e75f53",  "expires_in"    : 121212, "scope" : "read" }
+    
+### refreshAccessToken [GET]
++ Parameters
+    + client_id ( string )
+    + client_secret( string )
+    + grant_type( string )
+    + scope ( string )
+    + refresh_token
+    
++ Response 200 (application/json)
+
+        { "access_token"  : "77effd7f-f73c-4bb5-a4bf-f3fc8cb5c80d", "token_type" : "bearer", "refresh_token" : "66d31440-089e-49c9-a699-227c79e75f53",  "expires_in"    : 121212, "scope" : "read" }
+
+
+# Group Members
+
+All the things we say about the member profiles ya?
+
+## Profile [/giffgaff-api/profile.json]
+
+
++ Model (application/json)
+
+    JSON representation of Member Resource.
+
+    + Body
+
+            {
+             "username":"usersim3",
+              "phone_number":"+447700000007",
+              "role":"ROLE_SIM",
+              "balance":700,
+              "free_calls_expiration":"2012-10-20T13:45:18.763+0000",
+              "affiliate":false,
+              "auto_topup":false,
+              "adult_content":false,
+              "phone_notifications":false,
+             "gigabag_notification":false,
+             "recurring_goodybag":false,
+              "current_goodybag":{
+                "goodybag":"Cool Goodybag",
+                "price":0,
+                "start_date":"2012-08-21T23:00:00.000+0000",
+                "end_date":"2012-09-19T23:00:00.000+0000",
+                "voice_left":99,
+                "text_left":499,
+                "data_left":999,
+                "bb_addon":false
+              },
+              "queued_goodybag":null,
+              "payback_points":null
+            }
+
+### Retrieve a Member Profile [GET]
+
++ Request (application/json)
+    
+    + Headers
+        
+            Authorization: Bearer 77effd7f-f73c-4bb5-a4bf-f3fc8cb5c80d
+
++ Response 200
+    
+    [Profile][]
+
+## Auto topup Settings  [/giffgaff-api/autotopup]
+### set a member's goodybag to reccur [PUT]
+
++ Request (application/json)
+    
+    + Headers
+        
+            Authorization: Bearer 77effd7f-f73c-4bb5-a4bf-f3fc8cb5c80d
+
+    + Body
+
+            {
+                "enable" : true,
+                "amount" : 10,
+                "max"    : 2
+            } 
+
++ Response 200 (application/json)
+
+        {
+            "autotopup" : true
+        }
+        
+
+# Group Numbers
+## Numbers [/giffgaff-api/numbers]
+### See which of your contacts in on giffgaff [POST]
+Members' contact numbers are sent as a triple DES encrypted JSON array of number strings (sent as a base64 encoded blob) in international format without the '+' eg `447934776766`
+The response is a similarly encryped JSON array of the numbers that are on giffgaff.
+
++ Request (application/json)
+    
+    + Headers
+        
+            Authorization: Bearer 77effd7f-f73c-4bb5-a4bf-f3fc8cb5c80d
+
+    + Body
+    
+            {
+                "numbers" :
+                    "364a116e1f2b26fe53efbc951c1a1f2a6b55bee0c9b4c1a2581f895d2b447f26364a116e1f2b26fe53efbc951c1a1f2a"
+            }
+
++ Response 200 (application/json)
+
+        {
+            "numbers": "uarqW3k94GKaqFOE+4qqTJw6L2mN6i18DHO5lhwl1NGf0FKKiyAcXz4SuwUhF7xa0GBMseYIAKxzrB0AvJp3e+OkTS0Qyjhj35jy16fpGWY71mfEHAJEX6AK3ZIRk7dNnVFHF5O/Uk4bch/gIRrlMMKror8d/lJRYq8dpZEYcG3D3vVYGSMxqpktpyojVCFwqSqYHGDKzsK9ma5XN+2roTtdb6vAjr7RtHdW250yq0IoHuiH4xkp5hfo3yz4XXbJljZJvgLFLUp3jWeXzral8uXLtNOhjDBR4mgXln33ozaMaPQJRFJqNvDqrAM4HqNG2D827IocpfC5oSJhtLmwNSJ414d9OP+deaaj3w1Huf4v/o1tAfPrPq5WtH8YcjDt0XucVD9h19RP0MPOaAdKh8shxsrEcfNLTS22bnxc237Lamv0UUWR/Ty+PE2tKPSN1KSWCCFkuGK5vxOtr+La1D7UWrSicwVboFBDDAfEhX08DQQvXl0zHAL9wxihpLIOMRNbHlBaPAhxn60EK2zMBcWIFErcg7SmBaHjJtuzuDgMJNM9HUL9GX6G3UFE5A8lMZV+H+do9M0KNRYu0w6Voh6QUougZVOcvwMXl9iaQ6FTeVLElycmAVXdTkN2J/UPkW13WR7N+W3J2YjXNZBYNgbQU3MMz4fkHqYkaekHACHFSPgre0oAtT9vtfbFjsrNcbl7jQ7SDvAs/G2tONctphCz8ON/TT0uH3KIdr7vtPGDWmzb8JL6vfz5rB/r9w9IiKunpUlmEgf0TUh2cwIMEjY1B2jYzI6iVA8dhNfmH31586jqK3MCpEnSYMfLiXsNSswpvClP9W4EHEh5eUYucVZS2KGn8JRNxrJZH37VFasJAJtrwz3a0yVjBifNTvwnVPKZxPWu1NNpI/yMredGquGt1WgofPR5YoiLMk7CX4pkRfYGj3Um71OgdI0+pQdV7Q+HpXghVminhVvjAv1J+dH0qzkioUMp9467AdJe2d3zxCaGTVyqa9GxHgrgkGaBs/UNEa+hO+sT1A7gyLU736sDcpDp7lVhdT+UN2ZOfIYngxZPi1enkm3EBj/5iGIXSMyOoSsMFz13wQPx5vJTlqIMwA/XkxBJpjCsBp6PkKRzPbgJDCvinGWMyv5GjM3mvXqGi2tf9qoNb7iHdgS9nO5TnJ+0HMArmBtCP0VWi3od9l/+oNR7rQ4sh7ERGZDnDWhlKygtt4h++U7WwNEisEVDOsJCB+Uj+7WgrQiDV5i3KhbWJ6a41dVgUzuT8XCeAKMVHrHsRvRCBNffKp73tQ=="
+        }
+
+#Group Recurence
+
+## Recurrence Settings  [/giffgaff-api/recur/goodybag]
+### set Goodybag Recur [POST]
+
++ Request (application/json)
+    
+    + Headers
+        
+            Authorization: Bearer 77effd7f-f73c-4bb5-a4bf-f3fc8cb5c80d
+
+    + Body
+    
+            {
+                "recur_goodybag" : true,
+                "sku" : "BD007"
+            }
+
++ Response 200 (application/json)
+
+        {
+            "recur_goodybag" : true,
+            "sku" : "BD007"
+        }
+
+
+#Group Topup
+
+## Price List [/giffgaff-api/priceList]
+### get the price list [GET]
+
++ Response 200 (application/json)
+
+        {
+         "BD001":
+         {
+            "icon" : "BD001.pdf",
+            "price" : 7.5,
+            "voice_max" : 200,
+            "text_max" : -1,
+            "data_max": 250 
+            },
+            "BD002":
+             {
+                "icon" : "BD002.pdf",
+                "price" : 10.0,
+                "voice_max" : 500,
+                "text_max" : -1,
+                "data_max": 1000 
+                }
+         }
