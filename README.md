@@ -5,7 +5,7 @@ A tiny category, with a single method to send out a NSNotifiatication if a shake
 
 ##Installation
 
-###Cocoapods (preferred)  
+###CocoaPods (preferred)  
 add the following to your Podfile
 
 ```
